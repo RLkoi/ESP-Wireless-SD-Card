@@ -9,6 +9,8 @@ Now, in postman, create a new http ![image](https://github.com/RLkoi/ESP-Wireles
 After this, you should be on a page like this: ![image](https://github.com/RLkoi/ESP-Wireless-SD-Card/assets/78034237/8438ac0f-0433-43b2-ae3e-2067cf8d9afe)
  Click on Get and select Post, this changes the mode so that you will post a file onto the esp
  Then, in the link box, type: http://<espIpadress>/upload, replace the <espIPadress> with its IP, heres a piece of code that prints your ESP's IP into the serial monitor:
+
+ 
  #include <WiFi.h>
 
 // Replace with your network credentials
