@@ -1,6 +1,6 @@
 # ESP-Wireless-SD-Card
 This is a piece of code on the arduino IDE that makes your ESP act like a wireless SD card
-
+Postman Download: https://www.postman.com/downloads/
 
 #Instructions
 First, download an app named postman, this is how you'll send data to the ESP
@@ -41,3 +41,4 @@ void loop() {
   // Empty loop
 }
 
+PS: if you want to upload files to it, on postman, go to raw and it lets you select a file
